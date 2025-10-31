@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("🎧⬇️Music Downloade")
+st.title("🎧⬇️Music Download")
 cl,c2=st.columns(2)
 with cl:
     st.title("🎬movie name")
@@ -29,3 +29,4 @@ with c2:
                   data=h, 
                   file_name="F1.mp3",
             )  
+
